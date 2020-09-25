@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To lovehacker
+#The Credit For This Code Goes To Malik Raju
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
