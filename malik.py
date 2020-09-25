@@ -146,8 +146,8 @@ def login():
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
-		br.form['email'] = Without Id
-		br.form['pass'] = WithoutPass
+		br.form['email'] = None
+		br.form['pass'] = None
 		br.submit()
 		url = br.geturl()
 		if 'save-device' in url:
@@ -306,7 +306,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Malik_Raju
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
